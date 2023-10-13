@@ -9,9 +9,11 @@ let clippy = new Clippy('identifier','type','index');
 
 Example:
 ```
+<!-- the html -->
 <input type="hidden" id="cool_stuff_id" name="cool_stuff_name" class="cool_stuff_class" value="this stuff is very cool" >
 <button name="test_btn" class="btn" id="btn-id"></button>
 
+<!-- how to use clippy.js -->
 <script src="path/to/clipp.js"></src>
 <script>
   /* using id */
