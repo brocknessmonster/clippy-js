@@ -10,6 +10,8 @@
     Only the type of id does not need an index value. Others need to know which 
     element in an array is intended to have a value for extraction
 
+    *** requires HTTPS ***
+
     Examples: Use the Clippy class like this:
 
         With an id - 
