@@ -3,7 +3,9 @@
 Clippy JS is a Javascript class that lets you copy text to clipboard with very 
 little configuration. Just pass in an identifier, indicate what type identifier is 
 being passed, and what index the target element occurs at (if an array of 
-elements is returned by the identifier type). 
+elements is returned by the identifier type).
+
+*** Requires HTTPS ***
 
 let clippy = new Clippy('identifier','type','index');
 
