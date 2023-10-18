@@ -16,7 +16,7 @@ Example:
 <button name="test_btn" class="btn" id="btn-id">Copy Cool Stuff To Clipboard</button>
 
 <!-- how to use clippy.js -->
-<script src="path/to/clipp.js"></src>
+<script src="path/to/clippy.js"></src>
 <script>
   /* using id */
   window.onload = ()=>{
