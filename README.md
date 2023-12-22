@@ -16,50 +16,54 @@ Example:
 <button name="test_btn" class="btn" id="btn-id">Copy Cool Stuff To Clipboard</button>
 
 <!-- how to use clippy.js -->
+
+
+
 <script src="path/to/clippy.js"></src>
 <script>
   /* using id */
-  window.onload = ()=>{
-    /* add click event to button to trigger clippy */
-    document.getElementById('btn-id').addEventListener('click',()=>{
-      let clipTest = new Clippy('cool_stuff_id','id',null);
-    });
-  }</script>
+  document.addEventListener("DOMContentLoaded",() => { 
+      /* add click event to button to trigger clippy */
+      document.getElementById('btn-id').addEventListener('click',()=>{
+        let clipTest = new Clippy('cool_stuff_id','id',null);
+      });
+  });
+</script>
 <script>
   /* using name */
-  window.onload = ()=>{
+  document.addEventListener("DOMContentLoaded",() => { 
     /* add click event to button to trigger clippy */
     document.getElementById('btn-id').addEventListener('click',()=>{
       let clipTest = new Clippy('cool_stuff_name','name',0);
     });
-  }
+  });
 </script>
 <script>
   /* using className */
-  window.onload = ()=>{
+  document.addEventListener("DOMContentLoaded",() => { 
     /* add click event to button to trigger clippy */
     document.getElementById('btn-id').addEventListener('click',()=>{
       let clipTest = new Clippy('cool_stuff_class','className',0);
     });
-  }
+  });
 </script>
 <script>
   /* using querySelector w className */
-  window.onload = ()=>{
+  document.addEventListener("DOMContentLoaded",() => { 
     /* add click event to button to trigger clippy */
     document.getElementById('btn-id').addEventListener('click',()=>{
       let clipTest = new Clippy('.cool_stuff_class','querySelector',0);
     });
-  }
+  });
 </script>
 <script>
   /* using querySelector w id */
-  window.onload = ()=>{
+  document.addEventListener("DOMContentLoaded",() => { 
     /* add click event to button to trigger clippy */
     document.getElementById('btn-id').addEventListener('click',()=>{
       let clipTest = new Clippy('#cool_stuff_id','querySelector',0);
     });
-  }
+  });
 </script>
 ```
 
